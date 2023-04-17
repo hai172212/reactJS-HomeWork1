@@ -8,6 +8,7 @@ import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import BasicExample from "./componet/BasicExample";
 import Footer from "./componet/Footer";
+import Feedback from "./componet/Feedback";
 
 
 function App() {
@@ -33,6 +34,11 @@ function App() {
       <BasicExample></BasicExample>
       <BasicExample></BasicExample>
       </div>
+      <div className="feedback">
+      <div className="feedback1"><Feedback></Feedback></div>
+      
+      </div>
+      
       
         
       </main>
